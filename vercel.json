@@ -3,6 +3,7 @@
         {
 
             "src": "/routes/(.*)", 
+            "methods": ["POST"],
             "dest": "routes/bookingRoutes.js"
         }
 
