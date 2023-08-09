@@ -5,13 +5,13 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class BookingService {
-  url ='http://localhost:4000/seats_reservation';
+  url ='/seats_reservation';
   
   constructor(private http:HttpClient) { }
 
   bookings(data:any)
   {
-    console.warn('chcking data', data);
+    console.warn('checking data', data);
     
     return this.http.post(this.url, data)
   }
