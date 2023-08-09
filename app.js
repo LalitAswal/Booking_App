@@ -7,7 +7,7 @@ const app = express();
 //booking routes
 const bookingRoutes = require('./routes/bookingRoutes.js');
 
-//middlewares
+//middleware
 app.use(cors())
 app.use(express.json());
 // app.use(express.static('booking'))
