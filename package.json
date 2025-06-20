@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "vercel-build": "ng build --prod && npm run build-backend"
-  },
+    "start": "node index.js"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LalitAswal/Booking_App.git"

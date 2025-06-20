@@ -9,7 +9,7 @@ const options = {
   // family: 4
 }
 
-const dbConnection = mongoose.connect(url);
+const dbConnection = mongoose.connect(url, options);
 
 dbConnection.then(() => {
   console.log('MongoDB connection established');
